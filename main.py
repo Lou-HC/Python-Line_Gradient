@@ -27,7 +27,7 @@ ax.plot(x, y)
 line, = ax.plot([], [], color='red', linestyle='-', linewidth=2)
 line.set_visible(False)
 
-LINE_LENGTH = 10
+LINE_LENGTH = 20
 
 # Event handler for left-click
 def on_click(event):
